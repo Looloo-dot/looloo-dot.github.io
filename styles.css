@@ -47,7 +47,8 @@
 /* ------------------------------------------------------------------ */
 
 :root {
-  color-scheme: light dark;
+  /* light is the default for everyone; dark is a choice via the toggle */
+  color-scheme: light;
 
   /* surfaces */
   --paper:        light-dark(#FAF9F6, #16181A);
@@ -899,10 +900,9 @@ a:not([href]) { text-decoration: none; color: var(--ink-2); cursor: default; }
 }
 .org-tall { height: 40px; }
 .org:hover { opacity: 1; filter: grayscale(0); }
-@media (prefers-color-scheme: dark) {
-  :root:not([style*="color-scheme: light"]) .org { filter: grayscale(1) invert(.85); }
-  :root:not([style*="color-scheme: light"]) .org:hover { filter: grayscale(1) invert(.85); opacity: .9; }
-}
+/* logos invert only when the visitor has chosen dark via the toggle */
+:root[style*="color-scheme: dark"] .org { filter: grayscale(1) invert(.85); }
+:root[style*="color-scheme: dark"] .org:hover { filter: grayscale(1) invert(.85); opacity: .9; }
 
 .xp-list { grid-column: text-start / note-end; }
 .xp {

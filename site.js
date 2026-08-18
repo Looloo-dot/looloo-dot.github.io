@@ -15,7 +15,7 @@
   function usedScheme() {
     var o = document.documentElement.style.colorScheme;
     if (o) return o;
-    return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'light';   /* the site defaults to light regardless of OS */
   }
   function syncThemeColor() {
     var dark = usedScheme() === 'dark';
