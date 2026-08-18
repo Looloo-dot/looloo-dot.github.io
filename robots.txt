@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://looloo-dot.github.io/sitemap.xml
