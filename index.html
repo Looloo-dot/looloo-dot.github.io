@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Louis Yiven Zhu</title>
+<meta name="description" content="Louis Yiven Zhu — researcher in AI evaluation and measurement. Oxford Internet Institute. Do benchmark scores deserve the weight they carry?">
+<meta name="theme-color" content="#FAF9F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16181A" media="(prefers-color-scheme: dark)">
+
+<link rel="canonical" href="https://looloo-dot.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://looloo-dot.github.io/">
+<meta property="og:title" content="Louis Yiven Zhu">
+<meta property="og:description" content="Researcher in AI evaluation and measurement — do benchmark scores deserve the weight they carry? Oxford Internet Institute.">
+<meta property="og:image" content="https://looloo-dot.github.io/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Louis Yiven Zhu">
+<meta name="twitter:description" content="Researcher in AI evaluation and measurement — do benchmark scores deserve the weight they carry? Oxford Internet Institute.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23FAF9F6'/%3E%3Cg fill='%231B4B57'%3E%3Crect x='1' y='1' width='3' height='3'/%3E%3Crect x='5' y='1' width='3' height='3'/%3E%3Crect x='9' y='1' width='3' height='3' opacity='.55'/%3E%3Crect x='13' y='1' width='2' height='3' opacity='.2'/%3E%3Crect x='1' y='5' width='3' height='3'/%3E%3Crect x='5' y='5' width='3' height='3' opacity='.55'/%3E%3Crect x='9' y='5' width='3' height='3' opacity='.2'/%3E%3Crect x='1' y='9' width='3' height='3' opacity='.55'/%3E%3Crect x='5' y='9' width='3' height='3' opacity='.2'/%3E%3Crect x='1' y='13' width='3' height='2' opacity='.2'/%3E%3C/g%3E%3C/svg%3E">
+
+<!-- runs before first paint so a stored theme never flashes -->
+<script>var t=localStorage.getItem('theme');if(t)document.documentElement.style.colorScheme=t;</script>
+
+<link rel="preload" href="fonts/spectral-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/spectral-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/public-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plex-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M3 9.5L12 5l9 4.5-9 4.5-9-4.5z"/><path d="M7 11.8V16c1.8 1.6 8.2 1.6 10 0v-4.2"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9.5" r="5"/><path d="M9 13.8L7.5 20l4.5-2.4L16.5 20 15 13.8"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6.5 3.5h7L18 8v12.5H6.5z"/><path d="M13.5 3.5V8H18"/><path d="M9 12.5h6M9 15.5h6"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v16h16"/><path d="M7.5 14.5l4-4.5 3 2.5 5-6"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24"><path d="M4.5 8L12 4l7.5 4v8L12 20l-7.5-4z"/><path d="M4.5 8L12 12l7.5-4M12 12v8"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3.5l7 2.8V12c0 4.5-3 7-7 8.5-4-1.5-7-4-7-8.5V6.3z"/><path d="M9 11.8l2.2 2.2 4-4.4"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6.5C10 4.8 7 4.5 4 5v13c3-.5 6-.2 8 1.5 2-1.7 5-2 8-1.5V5c-3-.5-6-.2-8 1.5z"/><path d="M12 6.5v13"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="4" y="6.5" width="16" height="12" rx="1.5"/><path d="M4.5 8l7.5 5.5L19.5 8"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 13.5A7.8 7.8 0 1110.5 4.5a6.2 6.2 0 009 9z"/></symbol>
+</svg>
+
+<a class="skip-link" href="#research">Skip to content</a>
+<div class="progress" aria-hidden="true"><b></b></div>
+
+<div class="topbar">
+  <p class="wordmark"><a href="#top">Louis Yiven Zhu</a></p>
+  <nav aria-label="Primary">
+    <a href="#research">research</a>
+    <a href="#experience">experience</a>
+    <a href="#talks">talks</a>
+    <a href="#recognition">recognition</a>
+    <a href="#contact">contact</a>
+    <button class="icon-btn" id="theme" type="button" aria-label="Invert colours"><svg class="icon"><use href="#i-moon"/></svg></button>
+  </nav>
+</div>
+
+<!-- ================================================================
+     HERO — the moving frontier.
+     A live, three-dimensional benchmark landscape drawn only in typed
+     characters. Its highlighted frontier moves as the terrain changes;
+     hover bends it, dragging changes the view, and clicking sends an
+     evaluation pulse across the surface.
+     ================================================================ -->
+<header class="hero-wrap" id="intro">
+  <figure class="banner" id="field" data-scene="frontier" role="img" tabindex="0" aria-label="An interactive three-dimensional ASCII landscape. A raised capability frontier moves across labeled regions for real AI evaluations as the terrain changes. Hover deforms the surface, drag horizontally to orbit through 360 degrees, and click to send an evaluation pulse. Arrow keys orbit the scene and Enter sends the same pulse.">
+    <noscript><style>.banner .stack{display:none}.banner{border:0}</style></noscript>
+    <div class="banner-head" aria-hidden="true">
+      <span>Moving frontier / benchmark terrain</span>
+      <span class="hint frontier-readout">drag to orbit 360&deg; &middot; click to test</span>
+    </div>
+    <div class="stack" aria-hidden="true">
+      <pre class="l-far"></pre>
+      <pre class="l-ghost"></pre>
+      <pre class="l-mid"></pre>
+      <pre class="l-near"></pre>
+      <pre class="crest"></pre>
+      <div class="mist"></div>
+    </div>
+  </figure>
+
+  <div class="hero">
+    <p class="eyebrow"><span>Oxford Internet Institute</span><span class="eyebrow-sep" aria-hidden="true">/</span><span>AI Evaluation</span></p>
+    <h1 class="sec-h"><span class="n">00</span>Who am I</h1>
+    <p class="lede">I&rsquo;m Louis, an MSc candidate at the Oxford Internet Institute. My research asks whether the benchmark scores used to judge AI systems can be trusted, and follows those scores into the things they decide: <em>prices, wages, and rules</em>.</p>
+    <p class="offdesk"><span>ice hockey</span><span>alpine ski racing</span><span>piano</span></p>
+    <div class="utility">
+      <a class="ext" href="https://www.linkedin.com/in/yiven-z">LinkedIn</a>
+      <a class="ext" href="https://scholar.google.com/citations?user=XCeO1nIAAAAJ&amp;hl=en">Google Scholar</a>
+      <a class="ext" href="https://github.com/Looloo-dot">GitHub</a>
+      <a class="ext" href="https://orcid.org/0009-0001-5579-0340">ORCID</a>
+      <a href="mailto:yiven.zhu@oii.ox.ac.uk">Email</a>
+    </div>
+  </div>
+
+  <ul class="facts">
+    <li class="fact"><svg class="icon"><use href="#i-cap"/></svg><span class="fact-k">University of Oxford</span><span class="fact-v">MSc, Oxford Internet Institute &middot; 2026&ndash;27</span></li>
+    <li class="fact"><svg class="icon"><use href="#i-book"/></svg><span class="fact-k">UCL</span><span class="fact-v">BSc, Science &amp; Technology Studies &middot; 2023&ndash;26</span></li>
+    <li class="fact"><svg class="icon"><use href="#i-doc"/></svg><span class="fact-k">Research</span><span class="fact-v">8 active papers &middot; 1 published (ACM CHI 2026)</span></li>
+    <li class="fact"><svg class="icon"><use href="#i-chart"/></svg><span class="fact-k">Data Science &amp; ML</span><span class="fact-v">MITx MicroMasters &middot; Oxford &middot; LSE</span></li>
+  </ul>
+</header>
+
+<main>
+
+  <nav class="spine" aria-label="Sections">
+    <ol>
+      <li><a href="#research"><span>research</span></a></li>
+      <li><a href="#experience"><span>experience</span></a></li>
+      <li><a href="#talks"><span>talks</span></a></li>
+      <li><a href="#recognition"><span>recognition</span></a></li>
+      <li><a href="#ask"><span>ask</span></a></li>
+      <li><a href="#contact"><span>contact</span></a></li>
+    </ol>
+    <p class="legend">scroll, or press 1&ndash;6</p>
+  </nav>
+
+  <!-- ============================================================ -->
+  <section id="research">
+    <h2><span class="n">01</span>Research</h2>
+
+    <p>Benchmarks are the exams AI models sit, and an exam is only useful if it is fair, consistent, and testing the right thing. Much of this research applies the statistics of human testing &mdash; <span class="pop term" tabindex="0">psychometrics<span class="pop-body" role="note">The statistical field behind standardised testing: how to tell whether a test is reliable, comparable, and measuring what it claims.</span></span> &mdash; to the exams we set for machines, and then follows the scores out into prices, wages and rules.</p>
+
+    <ol class="qlist">
+      <li><span class="q-n">Q1</span>Do benchmarks measure one ability or many?</li>
+      <li><span class="q-n">Q2</span>Does a score depend on how the test was run?</li>
+      <li><span class="q-n">Q3</span>What do the scores change in the real world?</li>
+    </ol>
+
+    <div class="pubs">
+      <article class="pub">
+        <div class="pub-top"><span class="status is-pending">under review</span></div>
+        <h3 class="pub-title"><a class="ext" href="https://github.com/Looloo-dot/frontier-ai-economic-validity">One Capability or Many?</a></h3>
+        <p>Twelve benchmarks that claim to measure different skills mostly track a single underlying factor.</p>
+        <p class="stat-row">
+          <span class="pop"><span class="stat-chip" tabindex="0"><b>421</b> models</span><span class="pop-body" role="note">Hash-pinned frontier model configurations in the frozen twelve-benchmark battery.</span></span>
+          <span class="pop"><span class="stat-chip" tabindex="0"><b>74.5%</b> one factor</span><span class="pop-body" role="note">Share of common variance on the first factor, exploratory factor analysis. As reported in the manuscript.</span></span>
+        </p>
+        <p class="pub-meta">pre-registered &middot; with Marcos Barreto, LSE Statistics &middot; aimed at ICLR 2027</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-top"><span class="status is-pending">under review</span></div>
+        <h3 class="pub-title"><a class="ext" href="https://doi.org/10.17605/OSF.IO/5UQJ2">The Price of Intelligence</a></h3>
+        <p>A price index for AI that holds capability constant &mdash; the way statistical agencies price computers.</p>
+        <p class="stat-row">
+          <span class="pop"><span class="stat-chip" tabindex="0"><b>782</b> models</span><span class="pop-body" role="note">Models in the frozen 31-month price panel, each observation with source URL and archive timestamp.</span></span>
+          <span class="pop"><span class="stat-chip" tabindex="0"><b>87%</b> hidden decline</span><span class="pop-body" role="note">Share of the measured decline in the price of capability that standard matched-model methods cannot see, because it arrives through new models rather than price cuts on old ones.</span></span>
+        </p>
+        <p class="pub-meta">pre-registered on OSF &middot; aimed at FAccT 2027</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-top"><span class="status is-pending">in preparation</span></div>
+        <h3 class="pub-title"><a class="ext" href="https://evalevalai.com">The Science of Evaluations</a></h3>
+        <p>Cross-lab standards for what a field must show before an evaluation counts as measurement. I write the validity and evidentiary-standards sections.</p>
+        <p class="pub-meta">EvalEval Coalition &mdash; Hugging Face, Edinburgh, EleutherAI &middot; aimed at TMLR</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-top"><span class="status is-published">published</span></div>
+        <h3 class="pub-title"><a class="ext" href="https://chi26workshop-human-agent-collaboration.hailab.io/assets/papers/36%20-%20From%20Advisor%20to%20Voting%20Teammate%20Institutional%20Authority%20and%20Information%20Structures%20of%20AI%20Agents%20in%20Bounded-Rational%20Human%20Groups.pdf">From Advisor to Voting Teammate</a></h3>
+        <p>When an AI joins a group decision, its institutional role matters more than its accuracy.</p>
+        <p class="stat-row">
+          <span class="pop"><span class="stat-chip" tabindex="0"><b>1.1M</b> simulations</span><span class="pop-body" role="note">Runs of the agent-based model across authority structures and information conditions.</span></span>
+        </p>
+        <p class="pub-meta">ACM CHI 2026, workshop on human&ndash;agent collaboration</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-top"><span class="status is-pending">under review</span></div>
+        <h3 class="pub-title"><a data-todo="ctt-pdf">Three Ways Classical Test Theory Misleads for LLM Judges</a></h3>
+        <p>The reliability statistics everyone borrows for AI judges rest on assumptions those judges break.</p>
+        <p class="pub-meta">NeurIPS 2026 workshop on reliable evaluation (JUDGe)</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-top"><span class="status is-pending">to be submitted</span></div>
+        <h3 class="pub-title"><a data-todo="mmlu-pdf">The Unassembled Validity Argument</a></h3>
+        <p>Six years of MMLU, the most-cited AI benchmark: the score depends on how the test is run, and the instability reaches the leaderboards built on it.</p>
+        <p class="pub-meta">BSc dissertation &middot; STS Best Dissertation Prize</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-top"><span class="status is-pending">working paper</span></div>
+        <h3 class="pub-title"><a class="ext" href="https://doi.org/10.2139/ssrn.5736503">Automation Risk and Wage Dynamics in the UK</a></h3>
+        <p>Does being measured as automatable move your wage? UK risk scores linked to pay records, occupation by year.</p>
+        <p class="pub-meta">SSRN &middot; under review, UCL Journal of Economics</p>
+      </article>
+
+      <article class="pub">
+        <div class="pub-top"><span class="status is-pending">working paper</span></div>
+        <h3 class="pub-title"><a class="ext" href="https://doi.org/10.2139/ssrn.5736722">Mandatory AI-Risk Disclosure as a Signalling Device</a></h3>
+        <p>If firms must disclose AI risk, disclosure becomes a signal: audits, costs and penalties as a game, under the EU AI Act and the SEC&rsquo;s proposed rules.</p>
+        <p class="pub-meta">SSRN &middot; capital markets</p>
+      </article>
+    </div>
+
+    <p class="also">Also: adversarial CAPTCHAs that humans pass and AI agents fail, with UCL&nbsp;Computer&nbsp;Science and Holistic&nbsp;AI &middot; a framework for when neural data should inform welfare policy <a class="ext chiplike" href="https://doi.org/10.48550/arXiv.2511.19548">arXiv</a></p>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="experience">
+    <h2><span class="n">02</span>Experience</h2>
+
+    <div class="orgs" aria-label="Institutions">
+      <img src="img/oxford.svg" alt="University of Oxford" class="org org-tall">
+      <img src="img/ucl.svg" alt="UCL" class="org">
+      <img src="img/lse.svg" alt="LSE" class="org org-tall">
+      <img src="img/mit.svg" alt="MIT" class="org">
+      <img src="img/hf.svg" alt="Hugging Face" class="org org-tall">
+    </div>
+
+    <div class="xp-list">
+      <div class="xp">
+        <span class="xp-when">2026&ndash;</span>
+        <div class="xp-body">
+          <p class="xp-role">Departmental Associate &middot; UCL Science &amp; Technology Studies</p>
+          <p class="xp-desc">Designing a new module on AI, digital labour and the future of work, funded by UCL MAPS. Supervised by Dr Joanna Octavia</p>
+        </div>
+      </div>
+      <div class="xp">
+        <span class="xp-when">2026&ndash;</span>
+        <div class="xp-body">
+          <p class="xp-role">Summer Researcher &middot; LSE Department of Statistics</p>
+          <p class="xp-desc">AI measurement and the factor structure of frontier evaluation, with Prof Marcos Barreto</p>
+        </div>
+      </div>
+      <div class="xp">
+        <span class="xp-when">2026&ndash;</span>
+        <div class="xp-body">
+          <p class="xp-role">Researcher &middot; EvalEval Coalition</p>
+          <p class="xp-desc">Cross-lab evaluation standards with Hugging Face, Edinburgh and EleutherAI; writing the validity sections of the <em>Science of Evaluations</em> paper</p>
+        </div>
+      </div>
+      <div class="xp">
+        <span class="xp-when">2026</span>
+        <div class="xp-body">
+          <p class="xp-role">Teaching Assistant &amp; Course Developer &middot; UCL STS</p>
+          <p class="xp-desc">Responsible Innovation in Practice and Governance of Emerging Technologies</p>
+        </div>
+      </div>
+      <div class="xp">
+        <span class="xp-when">2025&ndash;26</span>
+        <div class="xp-body">
+          <p class="xp-role">Student AI Researcher &middot; Holistic AI</p>
+          <p class="xp-desc">Adversarial robustness of LLM and vision&ndash;language agents</p>
+        </div>
+      </div>
+      <div class="xp">
+        <span class="xp-when">2025&ndash;26</span>
+        <div class="xp-body">
+          <p class="xp-role">Student Researcher &middot; UCL Computer Science</p>
+          <p class="xp-desc">Agent-based modelling of AI authority in group decisions, with Prof Maarten Speekenbrink &mdash; published at CHI 2026</p>
+        </div>
+      </div>
+      <div class="xp">
+        <span class="xp-when">2025</span>
+        <div class="xp-body">
+          <p class="xp-role">Research Contributor &middot; Institute of Economic Affairs</p>
+          <p class="xp-desc">UK graduate premium, contributing to Julian Jessop&rsquo;s analysis of administrative earnings data</p>
+        </div>
+      </div>
+      <div class="xp">
+        <span class="xp-when">2025</span>
+        <div class="xp-body">
+          <p class="xp-role">Research Contributor &middot; UCL Institute for Global Prosperity</p>
+          <p class="xp-desc">AI &amp; Youth, with Honorary Professor Noreena Hertz</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="talks">
+    <h2><span class="n">03</span>Talks &amp; community</h2>
+
+    <div class="cols-2">
+      <div>
+        <h3 class="mini-h">Talks &amp; presentations</h3>
+        <ul class="plain-list">
+          <li>ACM CHI 2026, workshop on human&ndash;agent collaboration &mdash; paper presentation</li>
+          <li>UCL Centre for Responsible Innovation &mdash; invited talk on the MMLU validity work</li>
+          <li>Explore Econ 2025, UCL &mdash; mandatory AI risk disclosure as a regulatory mechanism</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="mini-h">Roles</h3>
+        <ul class="plain-list">
+          <li>AI for Good, University of Oxford &mdash; Director of Engagement</li>
+          <li>Oxford Artificial Intelligence Society &mdash; Sponsorship Lead</li>
+          <li>Thinking About Thinking &mdash; Oxford Fellow</li>
+          <li>UCL Investment Society &mdash; Chairman, 2026/27</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="recognition">
+    <h2><span class="n">04</span>Recognition</h2>
+
+    <ul class="plain-list award-list">
+      <li><svg class="icon"><use href="#i-award"/></svg><span><strong>Peter Medawar Prize</strong> &mdash; UCL, highest overall result across the three-year BSc &middot; 2026</span></li>
+      <li><svg class="icon"><use href="#i-award"/></svg><span><strong>STS Best Dissertation Prize</strong> &mdash; UCL Science &amp; Technology Studies &middot; 2026</span></li>
+      <li><svg class="icon"><use href="#i-award"/></svg><span><strong>First in cohort</strong> &mdash; UCL STS, first-class honours &middot; 2026</span></li>
+      <li><svg class="icon"><use href="#i-award"/></svg><span><strong>Joan Beauchamp Proctor Prize</strong> &mdash; UCL, top Year 2 performance &middot; 2025</span></li>
+    </ul>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="ask">
+    <h2><span class="n">05</span>Ask me anything</h2>
+
+    <div class="chat">
+      <div class="chat-head">
+        <div>
+          <strong>Ask Louis</strong>
+        </div>
+        <span class="chat-state"><i></i>ready</span>
+      </div>
+      <div class="chat-log" id="chat-log" aria-live="polite"></div>
+      <div class="chat-chips" id="chat-chips">
+        <button type="button">What does Louis research?</button>
+        <button type="button">Where has he worked?</button>
+        <button type="button">What has he published?</button>
+        <button type="button">What is the landscape at the top?</button>
+      </div>
+      <form class="chat-bar" id="chat-form">
+        <input id="chat-in" type="text" placeholder="Ask about Louis&hellip;" autocomplete="off" aria-label="Ask a question about Louis">
+        <button class="email-card" type="submit">Ask</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="contact">
+    <h2><span class="n">06</span>Contact</h2>
+
+    <p>For research, collaboration, or data and code requests:</p>
+
+    <p class="email"><a class="email-card" href="mailto:yiven.zhu@oii.ox.ac.uk"><svg class="icon"><use href="#i-mail"/></svg>Email me</a>
+    <a class="email-card" href="https://www.linkedin.com/in/yiven-z">LinkedIn</a></p>
+  </section>
+
+</main>
+
+<aside class="outro">
+  <p>AI systems are judged by benchmark scores, and the scores carry real weight: they steer what gets deployed, what it costs, and how it is regulated. Everything on this site is after one question. <em>How much trust do those numbers deserve?</em></p>
+</aside>
+
+<footer class="page-footer">
+  <div class="foot-grid">
+    <div>
+      <p class="foot-name">Louis Yiven Zhu</p>
+      <p class="foot-sub">Oxford Internet Institute</p>
+    </div>
+    <nav class="foot-toc" aria-label="Footer">
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#talks">Talks &amp; community</a>
+      <a href="#recognition">Recognition</a>
+      <a href="#ask">Ask me anything</a>
+    </nav>
+    <div class="foot-contact">
+      <a class="email-card" href="mailto:yiven.zhu@oii.ox.ac.uk"><svg class="icon"><use href="#i-mail"/></svg>Email me</a>
+    </div>
+  </div>
+  <p class="foot-legal">&copy; 2026 Louis Yiven Zhu</p>
+</footer>
+
+<script src="banner.js"></script>
+<script src="site.js"></script>
+<script src="ask.js"></script>
+</body>
+</html>
