@@ -34,7 +34,7 @@ RESEARCH
     — under review at the NeurIPS 2026 TAE workshop; full version for ICLR 2027. 421 hash-pinned model configurations, twelve
     benchmarks; one factor carries 74.5% of common variance. Pre-registered. With
     Marcos Barreto, LSE Statistics.
-  * "The Price of Intelligence" — manuscript complete, to be submitted to FAccT 2027. Quality-adjusted
+  * "The Price of Intelligence" — under review at the NeurIPS 2026 EconML workshop; full version for FAccT 2027. Quality-adjusted
     price index for AI inference: 782 models, 31 months; 87% of the decline in the
     price of capability is invisible to standard matched-model methods. Pre-registered
     on OSF.
