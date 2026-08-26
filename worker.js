@@ -31,10 +31,10 @@ RESEARCH
   fixed effects, DoubleML.
 - Papers:
   * "One Capability or Many? Testing the Economic Validity of Frontier AI Evaluation"
-    — under review, aimed at ICLR 2027. 421 hash-pinned model configurations, twelve
+    — under review at the NeurIPS 2026 TAE workshop; full version for ICLR 2027. 421 hash-pinned model configurations, twelve
     benchmarks; one factor carries 74.5% of common variance. Pre-registered. With
     Marcos Barreto, LSE Statistics.
-  * "The Price of Intelligence" — under review, aimed at FAccT 2027. Quality-adjusted
+  * "The Price of Intelligence" — manuscript complete, to be submitted to FAccT 2027. Quality-adjusted
     price index for AI inference: 782 models, 31 months; 87% of the decline in the
     price of capability is invisible to standard matched-model methods. Pre-registered
     on OSF.
@@ -51,9 +51,15 @@ RESEARCH
   * "Mandatory AI-Risk Disclosure as a Signalling Device in Capital Markets" — solo-
     authored SSRN working paper: disclosure as a signal, a game of audits, costs and
     penalties under the EU AI Act and SEC proposed rules. DOI 10.2139/ssrn.5736722.
+  * "A Score Should Travel With Its Repair History" — position paper, under review at
+    the NeurIPS 2026 Workshop on AI for Meta-Science: benchmarks adjudicate like peer
+    review without its stewardship; proposes repair reporting, review and credit norms.
+  * "When Should Neural Data Inform Welfare? A Critical Framework for Policy Uses of
+    Neuroeconomics" — invited revise-and-resubmit at the Durham Economic Journal.
+    Preprint: DOI 10.48550/arXiv.2511.19548.
   * Also: adversarial CAPTCHAs that humans pass and AI agents fail (UCL CS +
-    Holistic AI); a framework for when neural data should inform welfare policy
-    (arXiv, DOI 10.48550/arXiv.2511.19548); validity sections of the EvalEval
+    Holistic AI); a study of cognitive load, XAI and trust in human-AI teams,
+    in preparation (UCL CS); validity sections of the EvalEval
     Coalition's "Science of Evaluations" paper (with Hugging Face, Edinburgh,
     EleutherAI), in preparation for TMLR.
 - benchprobe: his PyTorch toolkit for auditing benchmark score matrices (factor
