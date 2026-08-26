@@ -55,7 +55,7 @@ RESEARCH
     the NeurIPS 2026 Workshop on AI for Meta-Science: benchmarks adjudicate like peer
     review without its stewardship; proposes repair reporting, review and credit norms.
   * "When Should Neural Data Inform Welfare? A Critical Framework for Policy Uses of
-    Neuroeconomics" — invited revise-and-resubmit at the Durham Economic Journal.
+    Neuroeconomics" — invited revise-and-resubmit at the UCL Journal of Economics.
     Preprint: DOI 10.48550/arXiv.2511.19548.
   * Also: adversarial CAPTCHAs that humans pass and AI agents fail (UCL CS +
     Holistic AI); a study of cognitive load, XAI and trust in human-AI teams,
