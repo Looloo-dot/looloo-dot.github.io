@@ -21,7 +21,7 @@ IDENTITY
   previously London. Aiming at doctoral (PhD) work from 2027.
 - BSc Science & Technology Studies, UCL, 2023-26: first-class honours, first in year.
 - Contact: yiven.zhu@oii.ox.ac.uk. LinkedIn: linkedin.com/in/yiven-z.
-  GitHub: github.com/Looloo-dot. Also on Google Scholar and ORCID (linked on the site).
+  GitHub: github.com/louisyzhu. Also on Google Scholar and ORCID (linked on the site).
 
 RESEARCH
 - Topic: AI evaluation and measurement — whether the benchmark scores used to judge

@@ -71,7 +71,7 @@
     { k: 'contact email reach write message touch hire collaborate',
       a: 'Email him at ' + EMAIL + ' — or use the button in the contact section. Data, code and pre-registrations are shared on request.' },
     { k: 'linkedin github scholar orcid profile links social',
-      a: 'All linked at the top of the page: LinkedIn (linkedin.com/in/yiven-z), Google Scholar, GitHub (github.com/Looloo-dot) and ORCID.' },
+      a: 'All linked at the top of the page: LinkedIn (linkedin.com/in/yiven-z), Google Scholar, GitHub (github.com/louisyzhu) and ORCID.' },
     { k: 'landscape terrain frontier benchmark banner animation ascii art top page what is 3d',
       a: 'The banner is a live 3D benchmark landscape drawn entirely in ASCII. MMLU/HELM, HLE, SWE-Bench, Terminal-Bench v2.1, GDPval and tau3-Banking appear as different regions; the raised frontier moves across them because the frontier changes with the test. Hover deforms the surface, drag to orbit it through a full 360 degrees, and click to send an evaluation pulse. Hand-written JavaScript, no libraries.' },
     { k: 'who you bot assistant this chat are real ai gpt',

@@ -1,7 +1,7 @@
-# looloo-dot.github.io
+# louisyzhu.github.io
 
 Personal website of **Louis Yiven Zhu** — research on AI evaluation and measurement.
-Live at [looloo-dot.github.io](https://looloo-dot.github.io/).
+Live at [louisyzhu.github.io](https://louisyzhu.github.io/).
 
 Hand-written HTML, CSS and JavaScript. No frameworks, no build step, no trackers.
 The banner is an interactive ASCII scene rendered live in vanilla JS.
