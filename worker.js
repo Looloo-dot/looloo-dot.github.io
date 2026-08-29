@@ -84,6 +84,7 @@ EXPERIENCE
 TALKS & COMMUNITY
 - Talks: CHI 2026 workshop (paper presentation); UCL Centre for Responsible
   Innovation (invited talk on the MMLU work); Explore Econ 2025, UCL.
+- Service: Invited Reviewer, NeurIPS 2026 Trust-AI-Eval (TAE) workshop.
 - Roles: Director of Engagement, AI for Good (Oxford); Sponsorship Lead, Oxford
   Artificial Intelligence Society; Oxford Fellow, Thinking About Thinking;
   Chairman, UCL Investment Society 2026/27.

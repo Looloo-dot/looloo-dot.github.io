@@ -58,6 +58,8 @@
       a: '"Mandatory AI-Risk Disclosure as a Signalling Device in Capital Markets" is his SSRN working paper: if firms must disclose AI risk, disclosure becomes a signal, analysed as a game of audits, costs and penalties under the EU AI Act and the SEC’s proposed rules.' },
     { k: 'award prize won recognition medawar proctor honours',
       a: 'Peter Medawar Prize (UCL’s top overall BSc result), STS Best Dissertation Prize, first in cohort, and the Joan Beauchamp Proctor Prize for top Year 2 performance.' },
+    { k: 'reviewer review service reviewing peer',
+      a: 'He serves as an Invited Reviewer for the NeurIPS 2026 Trust-AI-Eval (TAE) workshop, which examines when AI evaluations and the claims drawn from them can be trusted.' },
     { k: 'talk talks conference presented presentation speaking',
       a: 'Recent talks: the CHI 2026 workshop on human–agent collaboration, an invited talk at the UCL Centre for Responsible Innovation on the MMLU work, and Explore Econ 2025 at UCL.' },
     { k: 'method methods statistics stats skills irt technical tools',
