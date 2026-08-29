@@ -51,7 +51,7 @@
     { k: 'benchprobe tool package software pytorch toolkit code',
       a: 'benchprobe is his PyTorch toolkit for auditing benchmark score matrices — factor structure, item difficulty, reliability. Release planned for October 2026; code on his GitHub.' },
     { k: 'repair history score travel stewardship meta science peer review norms',
-      a: '"A Score Should Travel With Its Repair History" is his position paper under review at the NeurIPS 2026 workshop on AI for meta-science: benchmarks adjudicate the way peer review does, without its stewardship, so scores should carry their repair history with them. Preprint: doi.org/10.31235/osf.io/7bg8r_v1.' },
+      a: '"A Score Should Travel With Its Repair History" is his position paper under review at two NeurIPS 2026 workshops — AI for meta-science, and AI & Science (AISciK): benchmarks adjudicate the way peer review does, without its stewardship, so scores should carry their repair history with them. Preprint: doi.org/10.31235/osf.io/7bg8r_v1.' },
     { k: 'neural neuroeconomics welfare brain data policy',
       a: '"When Should Neural Data Inform Welfare?" is his critical framework for policy uses of neuroeconomics — it has an invited revise-and-resubmit at the UCL Journal of Economics, and a preprint on arXiv.' },
     { k: 'disclosure signalling signal capital markets sec act firms regulation mandatory',

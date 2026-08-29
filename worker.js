@@ -52,8 +52,9 @@ RESEARCH
     authored SSRN working paper: disclosure as a signal, a game of audits, costs and
     penalties under the EU AI Act and SEC proposed rules. DOI 10.2139/ssrn.5736722.
   * "A Score Should Travel With Its Repair History" — position paper, under review at
-    the NeurIPS 2026 Workshop on AI for Meta-Science: benchmarks adjudicate like peer
-    review without its stewardship; proposes repair reporting, review and credit norms.
+    two NeurIPS 2026 workshops: AI for Meta-Science, and AI & Science (AISciK).
+    Benchmarks adjudicate like peer review without its stewardship; proposes repair
+    reporting, review and credit norms.
     Preprint: DOI 10.31235/osf.io/7bg8r_v1.
   * "When Should Neural Data Inform Welfare? A Critical Framework for Policy Uses of
     Neuroeconomics" — invited revise-and-resubmit at the UCL Journal of Economics.
