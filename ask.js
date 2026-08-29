@@ -35,7 +35,7 @@
     { k: 'price intelligence index inference cost faact hedonic',
       a: '"The Price of Intelligence" builds a quality-adjusted price index for AI inference: 782 models over 31 months, priced per unit of capability. Most of the decline — 87% — is invisible to standard matched-model methods. Pre-registered on OSF; under review at the NeurIPS 2026 EconML workshop, with the full version aimed at FAccT 2027.' },
     { k: 'capability factor iclr benchmark battery economic validity one many',
-      a: '"One Capability or Many?" tests twelve benchmarks that claim to measure different skills across 421 model configurations — one factor carries 74.5% of the common variance. Written at LSE Statistics; under review at the NeurIPS 2026 TAE workshop, with the full version aimed at ICLR 2027.' },
+      a: '"One Capability or Many?" tests twelve benchmarks that claim to measure different skills across 421 model configurations — one factor carries 74.5% of the common variance. Under review at the NeurIPS 2026 TAE workshop, with the full version aimed at ICLR 2027.' },
     { k: 'mmlu dissertation validity argument harness unassembled',
       a: 'His BSc dissertation follows MMLU through six years of patches and re-scorings, showing the score depends on the harness that produced it. It won the STS Best Dissertation Prize and is being turned into a paper.' },
     { k: 'judge judges llm ctt classical test theory reliability neurips',
