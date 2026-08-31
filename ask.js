@@ -59,7 +59,7 @@
     { k: 'award prize won recognition medawar proctor honours',
       a: 'Peter Medawar Prize (UCL’s top overall BSc result), STS Best Dissertation Prize, first in cohort, and the Joan Beauchamp Proctor Prize for top Year 2 performance.' },
     { k: 'reviewer review service reviewing peer',
-      a: 'He serves as an Invited Reviewer for the NeurIPS 2026 Trust-AI-Eval (TAE) workshop, which examines when AI evaluations and the claims drawn from them can be trusted.' },
+      a: 'He is an Invited Reviewer for two NeurIPS 2026 workshops: Trust-AI-Eval (TAE), which examines when AI evaluations and the claims drawn from them can be trusted, and EconML.' },
     { k: 'talk talks conference presented presentation speaking',
       a: 'Recent talks: the CHI 2026 workshop on human–agent collaboration, an invited talk at the UCL Centre for Responsible Innovation on the MMLU work, and Explore Econ 2025 at UCL.' },
     { k: 'method methods statistics stats skills irt technical tools',
