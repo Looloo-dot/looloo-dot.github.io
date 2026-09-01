@@ -47,7 +47,8 @@ RESEARCH
     the score depends on the harness that produced it. STS Best Dissertation Prize;
     being turned into a paper (to be submitted).
   * "Three Ways Classical Test Theory Misleads for LLM Judges" — under review,
-    NeurIPS 2026 workshop on reliable evaluation (JUDGe).
+    NeurIPS 2026 workshop on reliable evaluation (JUDGe). Code and data at
+    github.com/louisyzhu/llm-judge-reliability; preprint coming soon.
   * "Automation Risk and Wage Dynamics in the UK" — SSRN working paper, under review
     at the UCL Journal of Economics. DOI 10.2139/ssrn.5736503.
   * "Mandatory AI-Risk Disclosure as a Signalling Device in Capital Markets" — solo-

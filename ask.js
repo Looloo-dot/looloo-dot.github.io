@@ -39,7 +39,7 @@
     { k: 'mmlu dissertation validity argument harness unassembled',
       a: 'His BSc dissertation follows MMLU through six years of patches and re-scorings, showing the score depends on the harness that produced it. It won the STS Best Dissertation Prize and is being turned into a paper.' },
     { k: 'judge judges llm ctt classical test theory reliability neurips',
-      a: '"Three Ways Classical Test Theory Misleads for LLM Judges" is under review at the NeurIPS 2026 workshop on reliable evaluation (JUDGe): the borrowed reliability statistics rest on assumptions LLM-judge pipelines break.' },
+      a: '"Three Ways Classical Test Theory Misleads for LLM Judges" is under review at the NeurIPS 2026 workshop on reliable evaluation (JUDGe): the borrowed reliability statistics rest on assumptions LLM-judge pipelines break. Code and data are on GitHub; the preprint is coming soon.' },
     { k: 'chi advisor voting teammate agent group simulation abm',
       a: '"From Advisor to Voting Teammate" (ACM CHI 2026 workshop) simulates 1.1M group decisions with an AI as advisor or voting member — its institutional role matters more than its accuracy. The title in the research section links to the PDF.' },
     { k: 'experience job work worked roles history employment',
