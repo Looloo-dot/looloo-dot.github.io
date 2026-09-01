@@ -67,8 +67,9 @@ RESEARCH
     in preparation (UCL CS); validity sections of the EvalEval
     Coalition's "Science of Evaluations" paper (with Hugging Face, Edinburgh,
     EleutherAI), in preparation for TMLR.
-- benchprobe: his PyTorch toolkit for auditing benchmark score matrices (factor
-  structure, item difficulty, reliability). Release planned October 2026.
+- benchprobe: his PyTorch package for psychometric analysis of benchmark score
+  matrices (factor structure, item difficulty, reliability). Release planned
+  October 2026; not yet public, so there is no repository link to give out.
 
 EXPERIENCE
 - 2026-: Departmental Associate, UCL Science & Technology Studies — designing a new

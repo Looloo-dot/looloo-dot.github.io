@@ -49,7 +49,7 @@
     { k: 'evaleval coalition hugging face standards science evaluations',
       a: 'With the EvalEval Coalition (Hugging Face, Edinburgh, EleutherAI) he writes the validity sections of the Science of Evaluations paper — what a field should show before claiming an evaluation measured anything.' },
     { k: 'benchprobe tool package software pytorch toolkit code',
-      a: 'benchprobe is his PyTorch toolkit for auditing benchmark score matrices — factor structure, item difficulty, reliability. Release planned for October 2026; code on his GitHub.' },
+      a: 'benchprobe is his PyTorch package for psychometric analysis of benchmark score matrices — factor structure, item difficulty and reliability — so an evaluation can be audited in an afternoon. Release is planned for October 2026.' },
     { k: 'repair history score travel stewardship meta science peer review norms',
       a: '"A Score Should Travel With Its Repair History" is his position paper under review at two NeurIPS 2026 workshops — AI for meta-science, and AI & Science (AISciK): benchmarks adjudicate the way peer review does, without its stewardship, so scores should carry their repair history with them. Preprint: doi.org/10.31235/osf.io/7bg8r_v1.' },
     { k: 'neural neuroeconomics welfare brain data policy',
