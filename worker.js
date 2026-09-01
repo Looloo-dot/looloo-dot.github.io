@@ -52,8 +52,9 @@ RESEARCH
   * "Automation Risk and Wage Dynamics in the UK" — SSRN working paper, under review
     at the UCL Journal of Economics. DOI 10.2139/ssrn.5736503.
   * "Mandatory AI-Risk Disclosure as a Signalling Device in Capital Markets" — solo-
-    authored SSRN working paper: disclosure as a signal, a game of audits, costs and
-    penalties under the EU AI Act and SEC proposed rules. DOI 10.2139/ssrn.5736722.
+    authored conference paper, shortlisted for and presented at Explore Econ 2025
+    (UCL): disclosure as a signal, a game of audits, costs and penalties under the
+    EU AI Act and SEC proposed rules. DOI 10.2139/ssrn.5736722.
   * "A Score Should Travel With Its Repair History" — position paper, under review at
     two NeurIPS 2026 workshops: AI for Meta-Science, and AI & Science (AISciK).
     Benchmarks adjudicate like peer review without its stewardship; proposes repair
