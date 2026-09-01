@@ -33,10 +33,13 @@ RESEARCH
   * "One Capability or Many? Testing the Economic Validity of Frontier AI Evaluation"
     — under review at the NeurIPS 2026 TAE workshop; full version for ICLR 2027. 421 hash-pinned model configurations, twelve
     benchmarks; one factor carries 74.5% of common variance. Pre-registered.
+    Preprint arXiv:2608.29420; analysis plan DOI 10.17605/OSF.IO/VD34J; code and data
+    at github.com/louisyzhu/frontier-ai-economic-validity.
   * "The Price of Intelligence" — under review at the NeurIPS 2026 EconML workshop; full version for FAccT 2027. Quality-adjusted
     price index for AI inference: 782 models, 31 months; 87% of the decline in the
     price of capability is invisible to standard matched-model methods. Pre-registered
-    on OSF.
+    on OSF (DOI 10.17605/OSF.IO/5UQJ2). Preprint arXiv:2608.29843; dataset
+    DOI 10.5281/zenodo.22177190, mirrored on Hugging Face.
   * "From Advisor to Voting Teammate" — PUBLISHED, ACM CHI 2026 workshop on
     human-agent collaboration. 1.1M simulated group decisions; an AI's institutional
     role matters more than its accuracy.
@@ -56,7 +59,7 @@ RESEARCH
     reporting, review and credit norms.
     Preprint: DOI 10.31235/osf.io/7bg8r_v1.
   * "When Should Neural Data Inform Welfare? A Critical Framework for Policy Uses of
-    Neuroeconomics" — invited revise-and-resubmit at the UCL Journal of Economics.
+    Neuroeconomics" — under review after an invited minor revision at the UCL Journal of Economics.
     Preprint: DOI 10.48550/arXiv.2511.19548.
   * Also: adversarial CAPTCHAs that humans pass and AI agents fail (UCL CS +
     Holistic AI); a study of cognitive load, XAI and trust in human-AI teams,
