@@ -40,8 +40,8 @@ RESEARCH
     price of capability is invisible to standard matched-model methods. Pre-registered
     on OSF (DOI 10.17605/OSF.IO/5UQJ2). Preprint arXiv:2608.29843; dataset
     DOI 10.5281/zenodo.22177190, mirrored on Hugging Face.
-  * "From Advisor to Voting Teammate" — PUBLISHED, ACM CHI 2026 workshop on
-    human-agent collaboration. 1.1M simulated group decisions; an AI's institutional
+  * "From Advisor to Voting Teammate" — workshop paper, PUBLISHED in the ACM CHI 2026
+    Workshop on Human-Agent Collaboration proceedings. 1.1M simulated group decisions; an AI's institutional
     role matters more than its accuracy.
   * "The Unassembled Validity Argument" — BSc dissertation on six years of MMLU;
     the score depends on the harness that produced it. STS Best Dissertation Prize;
