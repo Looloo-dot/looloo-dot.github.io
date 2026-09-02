@@ -63,6 +63,9 @@ RESEARCH
   * "When Should Neural Data Inform Welfare? A Critical Framework for Policy Uses of
     Neuroeconomics" — under review after an invited minor revision at the UCL Journal of Economics.
     Preprint: DOI 10.48550/arXiv.2511.19548.
+  * "Who Makes the Future of Work? Measurement, Hidden Labour and the Evidence on AI"
+    — in preparation with Dr Joanna Octavia (UCL), funded by a UCL MAPS summer
+    research internship; aimed at the International Labour Review.
   * Also: adversarial CAPTCHAs that humans pass and AI agents fail (UCL CS +
     Holistic AI); a study of cognitive load, XAI and trust in human-AI teams,
     in preparation (UCL CS); validity sections of the EvalEval
